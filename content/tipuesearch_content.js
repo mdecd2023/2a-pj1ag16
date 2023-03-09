@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': 'cmsimde_site \n 組員:41023132和41023151 \n 倉儲: https://github.com/mdecd2023/2a-pj1ag16', 'tags': '', 'url': 'About.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': 'cmsimde_site \n 組員:41023132和41023151 \n 倉儲: https://github.com/mdecd2023/2a-pj1ag16 \n', 'tags': '', 'url': 'About.html'}, {'title': 'homework', 'text': '', 'tags': '', 'url': 'homework.html'}]};
