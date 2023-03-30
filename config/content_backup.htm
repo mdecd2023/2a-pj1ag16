@@ -6,11 +6,9 @@
 <p>靜態網頁:<a href="https://mdecd2023.github.io/2a-pj1ag16/content/index.html">https://mdecd2023.github.io/2a-pj1ag16/content/index.html</a></p>
 <h1>w3</h1>
 <h4>BubbleRob:<a href="https://mde.tw/cd2023/content/BubbleRob.html">https://mde.tw/cd2023/content/BubbleRob.html</a></h4>
-<p>41023132心得:</p>
-<p>製作BubbleRob時，有許多的英文都看不懂，需要慢慢查，但熟悉過後就比較順手了。在做的過程中，我們的程式一直跑不出來，球體都無法運作，目前還在找方法解決。</p>
-<p>41023151心得:</p><h1>w6(H2)</h1>
+<h2>41023132心得</h2>
+<p><span>這是的課程是要跟同學合作建立共同倉儲，一開始弄得很糟，一下子我的東西有問題，一下子我的partner的網站哪裡出錯，所以我們用了很久，一開始不知道token要設定90天，我用成永久，導致我們的網頁有錯，之後刪掉重新改正後就沒問題了。</span></p><h2>41023151心得</h2>
 <h1>tutorial1</h1>
-<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt; 832840e0c0f455c4d7e67ca05a2d91f9c612ea74</p>
 <p>1.球體碰撞模擬</p>
 <p><a href="/downloads/1.js">/downloads/1.js</a></p>
 <div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/cmsimde/static" data-varname="winkVideoData_w2_1" height="600" muted="true" width="800"><source src="/downloads/1.mp4" type="video/mp4"/></video>
@@ -31,3 +29,35 @@
 <div class="winkVideoContainerClass"></div>
 <div class="winkVideoContainerClass">檔案</div>
 <div class="winkVideoContainerClass"><a href="/downloads/bubblerob .ttt">/downloads/bubblerob .ttt</a></div>
+<div class="winkVideoContainerClass"></div><h2>心得</h2>
+<p>41023132:</p>
+<p><span>製作BubbleRob時，有許多的英文都看不懂，需要慢慢查，但熟悉過後就比較順手了。在做的過程中，我們的程式一直跑不出來，球體都無法運作，目前還在找方法解決。</span></p><h2>程式</h2>
+<table border="0" cellpadding="0" cellspacing="0" height="146" style="width: 766px;">
+<tbody>
+<tr>
+<td class="gutter" style="width: 10.55px;">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+</td>
+<td class="code" style="width: 750.65px;">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="lua keyword">function</code> <code class="lua plain">sysCall_vision(inData)</code></div>
+<div class="line number2 index1 alt1"><code class="lua spaces">    </code><code class="lua plain">simVision.sensorImgToWorkImg(inData.handle) </code><code class="lua comments">-- copy the vision sensor image to the work image</code></div>
+<div class="line number3 index2 alt2"><code class="lua spaces">    </code><code class="lua plain">simVision.edgeDetectionOnWorkImg(inData.handle,0.2) </code><code class="lua comments">-- perform edge detection on the work image</code></div>
+<div class="line number4 index3 alt1"><code class="lua spaces">    </code><code class="lua plain">simVision.workImgToSensorImg(inData.handle) </code><code class="lua comments">-- copy the work image to the vision sensor image buffer</code></div>
+<div class="line number5 index4 alt2"><code class="lua keyword">end</code></div>
+<div class="line number6 index5 alt1"><code class="lua spaces"> </code> </div>
+<div class="line number7 index6 alt2"><code class="lua keyword">function</code> <code class="lua plain">sysCall_init()</code></div>
+<div class="line number8 index7 alt1"><code class="lua keyword">end</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table><h1>w6(H2)</h1>
+<p>完成連線:<br/>ag1 41023147 41023143<br/>ag2 41023146 41023148<br/>ag5 41023121 41023134<br/><span>ag</span>6 41023104 41023112<br/><span>ag</span>7 41023103 41023106<br/><span>ag</span>8 41023102 41023107<br/><span>ag</span>9 41023130 41023142<br/><span>ag</span>10 41023119 41023138<br/><span>ag</span>11 41023122 41023124<br/><span>ag</span>12 41023114 41023126<br/><span>ag</span>13 41023133 41023140<br/><span>ag</span>14 41023153 41023113<br/><span>ag</span>15 41023154 41023135<br/><span>ag</span>16 41023151 41023132<br/><span>ag</span>17 41023118 41023120<br/><span>ag</span>18 41023131 41039138<br/><span>ag</span>21 41023137 41023116<br/>未完成連線:<br/><span>ag</span>3 41023108 41023110 <br/><span>ag</span>4 41023125 41023128<br/><span>ag</span>19 41023101 41023141<br/><span>ag</span>20 41023105 41023109</p>
